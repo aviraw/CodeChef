@@ -1,0 +1,29 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    string name[n];
+    int count=0;
+    for(int i=0;i<n;i++)
+    {
+        cin>>name[i];
+    }
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<name[i].length();j++)
+        {
+            string t={(name[i][j]),(name[i][j+1])};
+            if(t.compare("ch")==0||t.compare("he")==0||t.compare("ef")==0)
+            {
+                count++;
+                break;
+            }
+            t="";
+        }
+    }
+    cout<<count;
+    return 0;
+}
