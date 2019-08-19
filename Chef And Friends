@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
-int main()
+int main() //git
 {
     int n;
     cin>>n;
