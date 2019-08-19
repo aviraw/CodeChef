@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    int max[t]={0};
+    for(int i=0;i<t;i++)
+    {
+        int n;
+        cin>>n;
+        int ar[n];
+        for(int j=0;j<n;j++)
+        {
+            cin>>ar[j];
+        }
+        for(int j=0;j<n;j++) //calculating all multiples
+        {
+            for(int k=j+1;k<n;k++)
+            {
+                int s=0;
+                int num=ar[j]*ar[k];
+                while(num!=0)
+                {
+                    s+=(num%10);
+                    num/=10;
+                }
+                if(s>=max[i])
+                max[i]=s;
+            }
+        }
+    }
+    for(int i=0;i<t;i++)
+    {
+            cout<<max[i]<<endl;
+    }
+    return 0;
+}
