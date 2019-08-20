@@ -1,0 +1,23 @@
+//https://www.codechef.com/problems/ICL1902
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int t=0;
+    cin>>t;
+    for(int i=0;i<t;i++)
+    {
+        int c=0;
+        int n=0;
+        cin>>n;
+        while(n!=0)
+        {
+            int r=sqrt(n);
+            n=n-(r*r);
+            c++;
+        }
+        cout<<c<<endl;
+    }
+    return 0;
+}
