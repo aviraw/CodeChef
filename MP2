@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    int d=0;
+    char x[n];
+    cin>>x;
+    while(n-1)
+    {
+        if(x[n-1]=='1') 
+        {
+            break;
+        }
+        else
+        {
+            n--;
+            d++;
+        }
+    }
+    cout<<d<<endl;
+    return 0;
+}
