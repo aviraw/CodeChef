@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        int x;
+        cin>>x;
+        cout<<(x==2010||x==2015||x==2017||x==2019||x==2016?"HOSTED":"NOT HOSTED")<<endl;
+    }
+    return 0;
+}
