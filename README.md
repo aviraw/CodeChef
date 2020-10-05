@@ -1,6 +1,6 @@
 # CodeChef 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GitHub contributors](https://img.shields.io/github/contributors/aviraw/CodeChef/)](https://github.com/aviraw/CodeChef/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/aviraw/CodeChef/coders-railroad.svg)](https://github.com/aviraw/CodeChef/graphs/contributors)
 #
 Answers and problems
 
