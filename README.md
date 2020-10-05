@@ -7,5 +7,3 @@ Answers and problems
 |2.|[CHFM](https://github.com/aviraw/CodeChef/blob/master/CHFM)|[aviraw](https://github.com/aviraw)|
 |3.|[Chef And Friends](https://github.com/aviraw/CodeChef/blob/master/Chef%20And%20Friends)|[aviraw](https://github.com/aviraw)|
 
-
-|-|-|-|
