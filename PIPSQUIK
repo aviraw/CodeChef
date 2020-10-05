@@ -1,0 +1,49 @@
+
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+  
+
+    int k=0;
+    cin>>k;
+    while(k--)
+    {
+        int n,h,y1,y2,l,count=0;
+        cin>>n>>h>>y1>>y2>>l;
+        while(n--)
+        {
+            int t,x;
+            cin>>t>>x;
+            
+            
+                if(((t==1) && ((h-y1)<=x) ) || ((t==2) && (y2>=x)))
+                {
+                    if(l<=0)
+                    continue;
+                    
+                    else
+                    count++;
+                }
+                
+            
+                else
+                {
+                    l--;
+                    if(l<=0)
+                    continue;
+                    
+                    else
+                    count++;
+                }
+            
+            
+            
+        }
+        cout<<count<<endl;
+        
+        
+    }
+    return 0;
+}
