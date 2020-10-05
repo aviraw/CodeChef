@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std ;
+
+
+
+int main()
+{
+    
+    int n,t;
+    cin >>n ;
+    while(n--)
+    {
+        cin>>t;
+        int count=0;
+        int a[t] = {0};
+        int b[t] = {0} ;
+        for(int i=0;i<t ;i++)
+        {
+            cin>>a[i];
+        }
+        
+            for(int i=0 ; i<t-1 ; i++)
+            {
+                if(a[i] != a[i+1])
+                {
+                b[i] = 1;
+                b[i+1] = 1;
+               // cout<<i;
+                }
+            }
+        
+        for(int i=0;i<t ;i++)
+        {
+            if(b[i] == 1)
+            count++;
+        }
+        cout<<endl<<count<<endl;
+       
+       
+    }
+    return 0;
+}
