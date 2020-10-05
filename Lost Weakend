@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int arr[5];
+	    int p;
+	    for(int i=0;i<5;i++)
+	    {
+	        cin>>arr[i];
+	    }
+	    cin>>p;
+	    int sum=0;
+	    for(int i=0;i<5;i++)
+	    {
+	        sum= sum+ (arr[i]*p);
+	    }
+	    
+	    if(sum> 120)
+	    {
+	        cout<<"Yes"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"No"<<endl;
+	    }
+	}
+	return 0;
+}
