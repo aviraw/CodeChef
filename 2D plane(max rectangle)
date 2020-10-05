@@ -1,0 +1,44 @@
+//given  t number of coordinates in a 2d plane , you have to find the total number of squares or rectangles formed, parallel to both the axis. 
+
+
+
+
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+    printf("Hello World");
+    int t;
+    cin>>t;
+    int X[t]={0} , Y[t]={0};
+    for(int l=0;l<t;l++)
+    {
+        
+        cin>>X[l]>>Y[l];        
+    }
+    
+    int count=0;
+        for(int i=0;i<t;i++)
+        {
+            for(int j=i+1;j<t;j++)
+            {
+                for(int k=i+1;k<t;k++)
+                {
+                    for(int m = i+1;m<t;m++)
+                    {
+                        if( (X[i] == X[j]) && (Y[i] == Y[k])  && (Y[m] == Y[j]) && (X[m]==X[k])  )
+                        {
+                        count++;
+                        cout<<X[i]<<Y[i]<<","<<X[j]<<Y[j]<<","<<X[k]<<Y[k]<<","<<X[m]<<Y[m]<<endl;
+                        }
+                    //(X[i] == X[i+j]) && (Y[i] == Y[i+k])  && (Y[i+m] == Y[i+j]) && (X[i+m]==X[i+k])
+                    }
+                }
+            }
+         
+        }
+        cout<<count<<endl;
+        
+    return 0;
+}
