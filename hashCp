@@ -1,0 +1,51 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+bool untracable(string mag[], string note[], int m, int n)
+{
+
+  unordered_map<string, int> words;
+  for(int i = 0; i < n; i++)
+  {
+    words[mag[i]] = words[mag[i]] + 1;
+  }
+
+  for(int i = 0; i < n; i++)
+  {
+    if(words[note[i]] > 0)
+    {
+      words[note[i]]--;
+    }
+    else{
+      return false;
+    }
+  }
+  return true;
+}
+
+int main()
+{
+  string mag[30000];
+  string note[30000];
+
+  int m, n;
+  cin >> m >> n;
+
+  for(int i = 0; i < m; i++)
+  {
+    cin >> mag[i];
+  }
+  for(int i = 0; i < n; i++)
+  {
+    cin >> note[i];
+  }
+
+  if(untracable(mag, note, m, n))
+  {
+    cout << "yes";
+  }
+  else{
+    cout << "no";
+  }
+}
