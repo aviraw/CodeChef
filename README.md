@@ -9,5 +9,5 @@ Answers and problems
 |1.|[Broken Telephone](https://github.com/aviraw/CodeChef/blob/master/Broken%20Telephone)|[sachin-cpp](https://github.com/sachin-cpp)|
 |2.|[CHFM](https://github.com/aviraw/CodeChef/blob/master/CHFM)|[aviraw](https://github.com/aviraw)|
 |3.|[Chef And Friends](https://github.com/aviraw/CodeChef/blob/master/Chef%20And%20Friends)|[aviraw](https://github.com/aviraw)|
-|4.|[IPL and RCB](https://github.com/VkRan/CodeChef-1/blob/master/IPL%20and%20RCB.cpp)[VkRan](https://github.com/VkRan)
+|4.|[IPL and RCB](https://github.com/VkRan/CodeChef-1/blob/master/IPL%20and%20RCB.cpp)|[VkRan](https://github.com/VkRan)
 
