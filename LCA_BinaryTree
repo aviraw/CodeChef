@@ -1,0 +1,56 @@
+
+class Solution
+{
+public:
+    TreeNode *temp = new TreeNode();
+
+    bool getPath(TreeNode *root, vector<int> &arr, int x)
+    {
+        if (root == NULL)
+            return false;
+        arr.push_back(root->val);
+        if (root->val == x)
+        {
+            return true;
+        }
+        if (getPath(root->left, arr, x) || getPath(root->right, arr, x))
+            return true;
+
+        arr.pop_back();
+        return false;
+    }
+
+    TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
+    {
+        vector<int> arrp;
+        getPath(root, arrp, p->val);
+
+        for (int i = 0; i < arrp.size(); i++)
+        {
+            cout << arrp[i];
+        }
+        cout << endl;
+        vector<int> arrq;
+        getPath(root, arrq, q->val);
+
+        for (int i = 0; i < arrq.size(); i++)
+        {
+            cout << arrq[i];
+        }
+        int n = min(arrp.size(), arrq.size());
+        for (int i = 0; i < n; i++)
+        {
+            if (arrp[i] != arrq[i])
+            {
+                break;
+            }
+            else
+            {
+                temp->val = arrp[i];
+            }
+        }
+
+        return temp;
+        ;
+    }
+};
