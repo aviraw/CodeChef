@@ -11,4 +11,6 @@ Answers and problems
 |3.|[Chef And Friends](https://github.com/aviraw/CodeChef/blob/master/Chef%20And%20Friends)|[aviraw](https://github.com/aviraw)|
 |4.|[IPL and RCB](https://github.com/VkRan/CodeChef-1/blob/master/IPL%20and%20RCB.cpp)|[VkRan](https://github.com/VkRan)
 |5.|[Zig_Zag_Tree](https://github.com/aviraw/CodeChef/blob/master/Broken%20Telephone)|[RaghavJindal13](https://github.com/RaghavJindal13)|
+|5.|[towerofhanoi](https://github.com/dhairya2019/CodeChef/blob/master/towerofhanoi.cpp/)|[dhairya2019](https://github.com/dhairya2019)|
+
 
