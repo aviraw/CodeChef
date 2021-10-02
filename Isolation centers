@@ -1,0 +1,54 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin>>t;
+    
+    while(t--)
+    {
+        int n,q;
+        cin>>n>>q;
+        string s;
+        cin>>s;
+        
+        int iso[q];
+        int arr[26];
+        for(int j=0;j<q;j++)
+        {
+            //int y ;
+            cin>>iso[j];
+            //iso[j] = y;
+            
+            for(int i=0;i<26;i++)
+        	{
+        	    arr[i]=iso[j];
+        	}
+            
+            
+            for(int i=0;i<n;i++)
+        	{
+        	    int x = s[i]-97;
+        	    arr[x]--;
+        	}
+        	
+        	int count = 0;
+            for(int i=0;i<26;i++)
+            {
+                if(arr[i] < 0)
+                {
+                    count = count - arr[i];
+                }
+            }
+            //count = -(count);
+            cout<<count<<endl;
+            
+            
+        }
+        
+        
+        
+        
+    }
+}
