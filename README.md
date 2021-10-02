@@ -12,4 +12,6 @@ Answers and problems
 |4.|[IPL and RCB](https://github.com/VkRan/CodeChef-1/blob/master/IPL%20and%20RCB.cpp)|[VkRan](https://github.com/VkRan)
 |5.|[Zig_Zag_Tree](https://github.com/aviraw/CodeChef/blob/master/Broken%20Telephone)|[RaghavJindal13](https://github.com/RaghavJindal13)|
 |6.|[Iterative_inorder](https://github.com/aviraw/CodeChef/blob/master/Broken%20Telephone)|[Kr-Raman](https://github.com/Kr-Raman)|
+|7.|[towerofhanoi](https://github.com/dhairya2019/CodeChef/blob/master/towerofhanoi.cpp/)|[dhairya2019](https://github.com/dhairya2019)|
+
 
