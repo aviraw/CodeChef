@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <iostream> 
+using namespace std ;
+int main()
+{
+    int n = 0;
+    cin>>n;
+    cout<<endl;
+    
+    while(n--)
+    {
+        int x ;
+        cin>>x;
+        
+        if(x%10 == 0)
+        cout<<"0"<<endl;
+        
+        else if ((x*2)%10==0)
+        cout<<"1"<<endl;
+        
+        else 
+        cout<<"-1"<<endl;
+    }
+    return 0;
+}
