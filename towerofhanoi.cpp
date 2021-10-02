@@ -16,10 +16,8 @@ void towerofhanoi(int n , char src , char target, char helper){
 
 int main()
 {
-    int n=0;
-    cin>>n;
-    
+    int n;
+    cin>>n; 
     towerofhanoi(n,'A','C','B');
-   
     return 0;
 }
