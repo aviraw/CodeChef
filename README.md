@@ -13,5 +13,5 @@ Answers and problems
 |5.|[Zig_Zag_Tree](https://github.com/aviraw/CodeChef/blob/master/Broken%20Telephone)|[RaghavJindal13](https://github.com/RaghavJindal13)|
 |6.|[Iterative_inorder](https://github.com/aviraw/CodeChef/blob/master/Broken%20Telephone)|[Kr-Raman](https://github.com/Kr-Raman)|
 |7.|[towerofhanoi](https://github.com/dhairya2019/CodeChef/blob/master/towerofhanoi.cpp/)|[dhairya2019](https://github.com/dhairya2019)|
-|-|-|-|
+|8.|[CombinationSum](https://github.com/ananya07105/CodeChef/blob/master/CombinationSum)|[Ananya Sharma](https://github.com/ananya07105)|
 
