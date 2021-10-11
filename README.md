@@ -1,6 +1,7 @@
 # CodeChef 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub contributors](https://img.shields.io/github/contributors/aviraw/CodeChef.svg)](https://github.com/aviraw/CodeChef/graphs/contributors)
+[![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/aviraw/CodeChef/blob/master/CONTRIBUTING.md)&nbsp;
 #
 
 DO FOLLOW MY GITHUB ACCOUNT I WOULD REALLY APPRECIATE IT. [Aviraw](https://github.com/aviraw/)
