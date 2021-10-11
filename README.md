@@ -21,5 +21,7 @@ DO FOLLOW MY GITHUB ACCOUNT I WOULD REALLY APPRECIATE IT. [Aviraw](https://githu
 |9.|[SOLBLTY](https://github.com/SidGoyal15555/CodeChef/commit/dca992f0f3b7f0d9887f7fcf0f3a20f693730319)|[SidGoyal15555](https://github.com/SidGoyal15555)|
 |10.|[WWALK](https://github.com/rupal2711/CodeChef/commit/c732c1b93a9a8b8059a9b044c9a1b1551c9151ff)|[rupal2711](https://github.com/rupal2711)|
 |11.|[Maximum difference of zeros and ones in binary string](https://github.com/Med16-11/CodeChef/blob/master/Maximum%20difference%20of%200s%20and%201s%20in%20binary%20string.cpp)|[Med16-11](https://github.com/Med16-11)|
-|12.|[Travel Pass](https://github.com/aviraw/CodeChef/blob/master/Travel_Pass.cpp)|[DEEP DAS](https://github.com/myselfdeepdas)|
+|12.|[Count Occurences of Anagrams](https://github.com/Med16-11/CodeChef/blob/master/Count%20Occurences%20of%20Anagrams.cpp)|[Med16-11](https://github.com/Med16-11)|
+|13.|[Travel Pass](https://github.com/aviraw/CodeChef/blob/master/Travel_Pass.cpp)|[DEEP DAS](https://github.com/myselfdeepdas)|
+
 
