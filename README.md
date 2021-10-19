@@ -28,5 +28,5 @@ DO FOLLOW MY GITHUB ACCOUNT I WOULD REALLY APPRECIATE IT. [Aviraw](https://githu
 |15.|[Travel Pass](https://github.com/aviraw/CodeChef/blob/master/Travel_Pass.cpp)|[DEEP DAS](https://github.com/myselfdeepdas)|
 |16.|[Valid Pair Sum](https://github.com/Med16-11/CodeChef/blob/master/Valid%20Pair%20Sum.cpp)|[Med16-11](https://github.com/Med16-11)|
 |17.|[Ceil and A-B Problem](https://github.com/SajalRuhela017/CodeChef/blob/master/Ceil_AB.cpp)|[Sajal Ruhela](https://github.com/SajalRuhela017)|
-
+|18.|[HOLES](https://github.com/aviraw/CodeChef/blob/master/holes_in_a_text.py)|[Kodali Bhavana](https://github.com/Kodali-Bhavana)|
 
