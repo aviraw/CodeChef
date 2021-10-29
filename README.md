@@ -31,4 +31,4 @@ DO FOLLOW MY GITHUB ACCOUNT I WOULD REALLY APPRECIATE IT. [Aviraw](https://githu
 |18.|[HOLES](https://github.com/aviraw/CodeChef/blob/master/holes_in_a_text.py)|[Kodali Bhavana](https://github.com/Kodali-Bhavana)|
 |19.|[Smart Phone](https://github.com/SajalRuhela017/CodeChef/blob/master/Smart%20Phone.cpp)|[Sajal Ruhela](https://github.com/SajalRuhela017)|
 |20.|[MAXDISTKT.cpp](https://github.com/sysoutayush/CodeChef/blob/master/MAXDISTKT.cpp)|[Ayush yadav](https://github.com/sysoutayush)|
-
+|21.|[character_pattern.py](https://github.com/DigamGupta/CodeChef/blob/master/character_pattern.py)|[Digam Gupta](https://github.com/DigamGupta)|
