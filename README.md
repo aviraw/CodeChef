@@ -36,4 +36,5 @@ DO FOLLOW MY GITHUB ACCOUNT I WOULD REALLY APPRECIATE IT. [Aviraw](https://githu
 |23.|[Gold Coins](https://github.com/uditjainstjis/CodeChef/blob/master/Gold%20Coins.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
 |24.|[Rectangled](https://github.com/uditjainstjis/CodeChef/blob/master/Rectangled.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
 |25.|[Independance Day](https://github.com/uditjainstjis/CodeChef/blob/master/Independance%20Day.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
-|26.|[character_pattern.py](https://github.com/DigamGupta/CodeChef/blob/master/character_pattern.py)|[Digam Gupta](https://github.com/DigamGupta)|
+|26.|[Chef and Dolls](https://github.com/Akshay-66/CodeChef/blob/master/Chef_and_Dolls.java)|[Akshay B](https://github.com/Akshay-66)|
+|28.|[Devu and friendship testing](https://github.com/Akshay-66/CodeChef/blob/master/Devu_and_friendship_testing.java)|[Akshay B](https://github.com/Akshay-66)|
