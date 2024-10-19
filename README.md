@@ -33,7 +33,7 @@ DO FOLLOW MY GITHUB ACCOUNT I WOULD REALLY APPRECIATE IT. [Aviraw](https://githu
 |20.|[MAXDISTKT.cpp](https://github.com/sysoutayush/CodeChef/blob/master/MAXDISTKT.cpp)|[Ayush yadav](https://github.com/sysoutayush)|
 |30.|[Chef and Parole](https://github.com/uditjainstjis/CodeChef/blob/master/Chef%20and%20Parole.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
 |31.|[GCD](https://github.com/uditjainstjis/CodeChef/blob/master/GCD.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
-|31.|[Gold Coins](https://github.com/uditjainstjis/CodeChef/blob/master/Gold%20Coins.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
-|31.|[Rectangled](https://github.com/uditjainstjis/CodeChef/blob/master/Rectangled.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
-|31.|[Independance Day](https://github.com/uditjainstjis/CodeChef/blob/master/Independance%20Day.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
-
+|32.|[Gold Coins](https://github.com/uditjainstjis/CodeChef/blob/master/Gold%20Coins.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
+|33.|[Rectangled](https://github.com/uditjainstjis/CodeChef/blob/master/Rectangled.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
+|34.|[Independance Day](https://github.com/uditjainstjis/CodeChef/blob/master/Independance%20Day.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
+|35.|[character_pattern.py](https://github.com/DigamGupta/CodeChef/blob/master/character_pattern.py)|[Digam Gupta](https://github.com/DigamGupta)|
