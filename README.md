@@ -37,3 +37,4 @@ DO FOLLOW MY GITHUB ACCOUNT I WOULD REALLY APPRECIATE IT. [Aviraw](https://githu
 |24.|[Rectangled](https://github.com/uditjainstjis/CodeChef/blob/master/Rectangled.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
 |25.|[Independance Day](https://github.com/uditjainstjis/CodeChef/blob/master/Independance%20Day.cpp)|[Udit Jain](https://github.com/uditjainstjis)|
 |26.|[character_pattern.py](https://github.com/DigamGupta/CodeChef/blob/master/character_pattern.py)|[Digam Gupta](https://github.com/DigamGupta)|
+|27.|[Glass Prices.cpp](https://github.com/DigamGupta/CodeChef/blob/master/Glass Prices.cpp)|[Agastya Kumar Yadav](https://github.com/agastya3636))|
