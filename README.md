@@ -40,3 +40,5 @@ DO FOLLOW MY GITHUB ACCOUNT I WOULD REALLY APPRECIATE IT. [Aviraw](https://githu
 |27.|[Glass Prices.cpp](https://github.com/DigamGupta/CodeChef/blob/master/Glass Prices.cpp)|[Agastya Kumar Yadav](https://github.com/agastya3636))|
 |28.|[Chef and Dolls](https://github.com/Akshay-66/CodeChef/blob/master/Chef_and_Dolls.java)|[Akshay B](https://github.com/Akshay-66)|
 |29.|[Devu and friendship testing](https://github.com/Akshay-66/CodeChef/blob/master/Devu_and_friendship_testing.java)|[Akshay B](https://github.com/Akshay-66)|
+|30.|[IPL-DP]([https://github.com/Akshay-66/CodeChef/blob/master/Chef_and_Dolls.java](https://github.com/aviraw/CodeChef/blob/d5f03bea0f6e0ba309526f2b6957d4f64cc3ca11/IPL-DP.cpp))|[Anurag Sharma](https://github.com/anurag-sharma17)|
+
