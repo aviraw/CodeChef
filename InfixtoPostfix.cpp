@@ -1,104 +1,62 @@
-#include<iostream>
-#include<stack>
+#include <iostream>
+#include <stack>
 using namespace std;
 
-bool isOperator(char c)
-{
-	if(c=='+' || c=='-' || c=='/' || c=='*' || c=='^')
-	{
-		return true;
-	}
-	else
-	{
-		return false;
-	}
+bool isOperator(char c) {
+    return (c == '+' || c == '-' || c == '/' || c == '*' || c == '^');
 }
 
-int precedence( char c)
-{
-	if(c=='^')
-	return 3;
-	else if(c=='*' || c=='/')
-	return 2;
-	else if(c=='+' || c=='-')
-	return 1;
-	else
-	return -1;
+int precedence(char c) {
+    if (c == '^') return 3;
+    if (c == '*' || c == '/') return 2;
+    if (c == '+' || c == '-') return 1;
+    return -1; // Invalid character
 }
 
-string InfixtoPostfix(stack<char> s, string infix)
-{
-	string postfix;
-	for(int i=0;i<infix.length();i++)
-	{
-		if((infix[i] >='a' && infix[i]<='z') || ( infix[i] >='A' && infix[i]<='Z'))
-		{
-			postfix+=infix[i];
-		}
-		else if(infix[i]=='(')
-		{
-			s.push(infix[i]);
-		}
-		else if(infix[i]==')')
-		{
-			while((s.top()!='(') && (!s.empty()))
-			{
-				char temp=s.top();
-				postfix+=temp;
-				s.pop();
-			}
-			if(s.top()=='(')
-			{
-				s.pop();
-			}
-		}
-		else if(isOperator(infix[i]))
-		{
-			if(s.empty())
-			{
-				s.push(infix[i]);
-			}
-			else
-			{
-				if(precedence(infix[i])>precedence(s.top()))
-				{
-					s.push(infix[i]);
-				}
-				else if((precedence(infix[i])==precedence(s.top())) && (infix[i]=='^') )
-				{
-					s.push(infix[i]);
-				}
-				else
-				{
-					while((!s.empty())&&( precedence(infix[i])<=precedence(s.top())))
-					{
-						postfix+=s.top();
-						s.pop();
-					}
-					s.push(infix[i]);
-				}
-			}
-		}
-	}
-	while(!s.empty())
-	{
-		postfix+=s.top();
-		s.pop();
-		
-	}
-	
-	return postfix;
+string InfixToPostfix(const string& infix) {
+    stack<char> s;
+    string postfix;
+
+    for (char c : infix) {
+        if (isalnum(c)) { // Check if the character is an operand (a-z, A-Z, 0-9)
+            postfix += c;
+        } else if (c == '(') {
+            s.push(c);
+        } else if (c == ')') {
+            while (!s.empty() && s.top() != '(') {
+                postfix += s.top();
+                s.pop();
+            }
+            if (!s.empty() && s.top() == '(') {
+                s.pop(); // Pop the '('
+            }
+        } else if (isOperator(c)) {
+            while (!s.empty() && precedence(c) <= precedence(s.top())) {
+                // For '^' operator, pop only if the top is not '^' (right associative)
+                if (c == '^' && s.top() == '^') break; 
+                postfix += s.top();
+                s.pop();
+            }
+            s.push(c);
+        }
+    }
+
+    while (!s.empty()) {
+        postfix += s.top();
+        s.pop();
+    }
+
+    return postfix;
 }
 
-int main()
-{
-	string infix,postfix_exp;
-	cout<<"Enter a Infix Expression : "<<endl;
-	cin>>infix;
-	stack <char> s;
-	cout<<"Infix Expression: "<<infix<<endl;
-	postfix_exp=InfixtoPostfix(s,infix);
-	cout<<endl<<"Postfix Expression: "<<postfix_exp;
-	
-	return 0;
+int main() {
+    string infix;
+    cout << "Enter an Infix Expression: ";
+    cin >> infix;
+
+    string postfix_exp = InfixToPostfix(infix);
+    cout << "Infix Expression: " << infix << endl;
+    cout << "Postfix Expression: " << postfix_exp << endl;
+
+    return 0;
 }
